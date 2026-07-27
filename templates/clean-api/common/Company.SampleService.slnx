@@ -8,9 +8,14 @@
     <File Path="docker-compose.yml" />
     <File Path="README.md" />
   </Folder>
-  <Folder Name="/src/">
-    <Project Path="src/Company.SampleService.Application/Company.SampleService.Application.csproj" />
+  <Folder Name="/src/0 - Domain/">
     <Project Path="src/Company.SampleService.Domain/Company.SampleService.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/1 - Application/">
+    <Project Path="src/Company.SampleService.Application/Company.SampleService.Application.csproj" />
+    <Project Path="src/Company.SampleService.Messages/Company.SampleService.Messages.csproj" />
+  </Folder>
+  <Folder Name="/src/2 - Infrastructure/">
 #if (useAuth)
     <Project Path="src/Company.SampleService.Infrastructure.Auth/Company.SampleService.Infrastructure.Auth.csproj" />
 #endif
@@ -27,7 +32,8 @@
 #if (useSqlServer)
     <Project Path="src/Company.SampleService.Infrastructure.SqlServer/Company.SampleService.Infrastructure.SqlServer.csproj" />
 #endif
-    <Project Path="src/Company.SampleService.Messages/Company.SampleService.Messages.csproj" />
+  </Folder>
+  <Folder Name="/src/3 - WebApi/">
     <Project Path="src/Company.SampleService.WebApi/Company.SampleService.WebApi.csproj" />
   </Folder>
   <Folder Name="/tests/">
