@@ -28,7 +28,7 @@
     "useCiCd": {
       "type": "parameter",
       "datatype": "bool",
-      "description": "Include GitHub Actions wrappers for the fcg-pipelines reusable CI/CD workflows.",
+      "description": "Include GitHub Actions wrappers for the flaviojcf-pipelines reusable CI/CD workflows.",
       "defaultValue": "true"
     },
     "serviceSlug": {

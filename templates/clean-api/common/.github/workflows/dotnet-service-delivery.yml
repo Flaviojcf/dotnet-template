@@ -14,7 +14,7 @@ permissions:
 jobs:
   deploy:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
-    uses: group10-tc-01/fcg-pipelines/.github/workflows/dotnet-service-delivery.yml@main
+    uses: Flaviojcf/flaviojcf-pipelines/.github/workflows/dotnet-service-delivery.yml@main
     with:
       service_name: company-sample-service
       image_name: company-sample-service
