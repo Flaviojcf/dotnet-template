@@ -6,4 +6,4 @@ on:
 
 jobs:
   branch-name-check:
-    uses: Flaviojcf/fcg-pipelines/.github/workflows/branch-name-check.yml@main
+    uses: Flaviojcf/flaviojcf-pipelines/.github/workflows/branch-name-check.yml@main

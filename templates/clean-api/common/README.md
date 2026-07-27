@@ -75,7 +75,7 @@ All options are boolean flags. Pass `--<flag>` to enable or `--<flag> false` to 
 | `--useOpenTelemetry` | `true` | OpenTelemetry tracing and metrics |
 | `--useSwagger` | `true` | Swashbuckle + API versioning |
 | `--useAuth` | `true` | JWT Bearer authentication + BCrypt |
-| `--useCiCd` | `true` | GitHub Actions wrappers for `fcg-pipelines` reusable CI/CD workflows |
+| `--useCiCd` | `true` | GitHub Actions wrappers for `flaviojcf-pipelines` reusable CI/CD workflows |
 
 ### CI/CD naming
 

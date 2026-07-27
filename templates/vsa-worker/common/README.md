@@ -21,7 +21,7 @@ dotnet new vsa-worker -n MyCompany.MyWorker
 |---|---|---|
 | `--useKafka` | `true` | Adds a sample Kafka consumer with Confluent.Kafka |
 | `--useSerilog` | `true` | Adds Serilog console/Seq logging |
-| `--useCiCd` | `true` | Adds GitHub Actions wrappers for `fcg-pipelines` |
+| `--useCiCd` | `true` | Adds GitHub Actions wrappers for `flaviojcf-pipelines` |
 | `--serviceSlug` | `company-sample-service` | Kebab-case name used by delivery resources |
 
 ## Running locally

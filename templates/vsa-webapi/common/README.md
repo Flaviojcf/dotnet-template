@@ -23,7 +23,7 @@ dotnet new vsa-webapi -n MyCompany.MyWebApi
 | `--useOpenTelemetry` | `true` | Adds OpenTelemetry tracing and metrics |
 | `--useSwagger` | `true` | Adds Swagger/OpenAPI documentation |
 | `--useAuth` | `true` | Adds JWT authentication and forwards the user bearer token to downstream APIs |
-| `--useCiCd` | `true` | Adds GitHub Actions wrappers for `fcg-pipelines` |
+| `--useCiCd` | `true` | Adds GitHub Actions wrappers for `flaviojcf-pipelines` |
 | `--serviceSlug` | `company-sample-service` | Kebab-case name used by delivery resources |
 
 ## Running locally
